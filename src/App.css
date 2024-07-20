@@ -1,0 +1,50 @@
+.text-editor {
+  position: fixed;
+  width: 20vw;
+  height: 85vh;
+  top: 7.5vh;
+  right: 2vw;
+  border-radius: 20px;
+  background-color: steelblue;
+}
+
+.add-text, .edit-text {
+  position: relative;
+  padding: 10px;
+  width: 70%;
+  margin: auto;
+  margin-top: 2em;
+}
+
+.edit-text > div {
+  margin-top: 2em;
+}
+
+.font-size input {
+  width: 50px;
+  padding: .5em 0;
+  padding-left: .5em;
+  border-radius: 3px;
+  border-style: none;
+}
+
+select {
+  padding: .3em;
+  border-radius: 5px;
+  font-size: .8em;
+}
+
+.text-input input{
+  padding: .7em 5em 0.5em .3em;
+}
+
+.edit-button {
+  margin-top: 0pxb;
+}
+
+.add-button button, .edit-button button {
+  padding: .7em 1em;
+  border-radius: 10px;
+  border-style: none;
+  margin-top: .3em;
+}
